@@ -53,15 +53,15 @@ public class toy {
     }
 
     public String toString() {
-        return "[id=" + id + ",\t\t\t name=" + name + ",\t\t\t count=" + count + 
-                ",\t\t\t price=" + price + ",\t\t\t rarity=" + rarity + "]";
+        return "[id=" + id + ", name=" + name + ", count=" + count + 
+                ", price=" + price + ", rarity=" + rarity + "]";
     }
    
     public String toStringAsPrize() {
-        return "[id=" + id + ",\t\t\t name=" + name + ",\t\t\t price=" + price + "]";
+        return "[id=" + id + ", name=" + name + ", price=" + price + "]";
     }
 
     public String toSavePrize() {
-        return id + ";\t\t\t" + name + ";\t\t\t" + price;
+        return id + ";" + name + ";" + price;
     }
 }

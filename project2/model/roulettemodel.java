@@ -228,7 +228,7 @@ public class roulettemodel {
     public boolean savePrizesAwarded() {
         try {
             FileWriter fr1 = new FileWriter(fnamePrizesAwarded);
-            fr1.append("id\t\t\t|Customer=id;fullName;checkNumber;phone\t\t\t|Toy=id;name;price\t\t\t|dateAward\n");
+            fr1.append("id|Customer=id;fullName;checkNumber;phone|Toy=id;name;price|dateAward\n");
             for (recieved item : drw.getPrizesAwarded()) {
                 fr1.append(item.getId() + "|" +
                         item.getCustomer().toSavePrize() + "|" +

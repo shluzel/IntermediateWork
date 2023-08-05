@@ -33,10 +33,10 @@ public class toysmodel {
             FileWriter fr1 = new FileWriter(fnameToys);
             fr1.append("id|name|count|price|rarity\n");
             for (toy item : toys) {
-                fr1.append(item.getId() + "\t\t\t|" +
-                        item.getName() + "\t\t\t|" +
-                        item.getCount() + "\t\t\t|" +
-                        item.getPrice() + "\t\t\t|" +
+                fr1.append(item.getId() + "|" +
+                        item.getName() + "|" +
+                        item.getCount() + "|" +
+                        item.getPrice() + "|" +
                         item.getRarity() + "\n");
             }
             fr1.close();

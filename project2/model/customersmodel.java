@@ -31,11 +31,11 @@ public class customersmodel {
     public boolean save() {
         try {
             FileWriter fr1 = new FileWriter(fnameCustomers);
-            fr1.append("id\t\t\t|fullName\t\t\t|checkNumber\t\t\t|phone\n");
+            fr1.append("id|fullName|checkNumber|phone\n");
             for (customer item : customers) {
-                fr1.append(item.getId() + "\t\t\t|" +
-                        item.getFullName() + "\t\t\t|" +
-                        item.getCheckNumber() + "|\t\t\t" +
+                fr1.append(item.getId() + "|" +
+                        item.getFullName() + "|" +
+                        item.getCheckNumber() + "|" +
                         item.getPhone() + "\n");
             }
             fr1.close();

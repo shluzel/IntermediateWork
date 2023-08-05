@@ -1,10 +1,11 @@
-id			|fullName			|checkNumber			|phone
-0			|Carl Gauss			|0234|			893454235
-1			|Pierre Fermat			|5392|			894352351
-2			|Daniel Bernoulli			|5312|			8952345325
-3			|David Hilbert			|4231|			89452434
-4			|Leonhard Euler			|5231|			892314132
-5			|Rene Descartes			|8723|			892364573647
-6			|Carl Jacobi			|3210|			8935235
-7			|Bernhard Riemann			|9453|			892435235
-8			|Amalie Noether			|9321|			893432523
+id|fullName|checkNumber|phone
+0|Carl Gauss|0234|893454235
+1|Pierre Fermat|5392|894352351
+2|Daniel Bernoulli|5312|8952345325
+3|David Hilbert|4231|89452434
+4|Leonhard Euler|5231|892314132
+5|Rene Descartes|8723|892364573647
+6|Carl Jacobi|3210|8935235
+7|Bernhard Riemann|9453|892435235
+8|Amalie Noether|9321|893432523
+9|Peter Dirichlet|2345|89342352345

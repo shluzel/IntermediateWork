@@ -36,11 +36,11 @@ public class customer {
     }
 
     public String toString() {
-        return "[id=" + id + ",\t\t\t fullName=" + fullName + ",\t\t\t checkNumber=" + 
-                checkNumber + ",\t\t\t phone=" + phone + "]";
+        return "[id=" + id + ",fullName=" + fullName + ", checkNumber=" + 
+                checkNumber + ", phone=" + phone + "]";
     }
 
     public String toSavePrize() {
-        return id + ";\t\t\t" + fullName + ";\t\t\t" + checkNumber + ";\t\t\t" + phone;
+        return id + ";" + fullName + ";" + checkNumber + ";" + phone;
     }
 }
